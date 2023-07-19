@@ -127,10 +127,9 @@
     position: relative;
     
 }
-.game h3, img{
+.game > h3, img{
     font-size: 1rem;
-    width: 40px;
-    height: 40px;
+    
 }
 .career-photo img {
     width: 100%;
@@ -138,5 +137,9 @@
 footer .contact,  .terms{
 padding: 26px 130px;
 flex-wrap: wrap;
+}
+.icon{
+    width: 40px;
+    height: 40px;
 }
 }
