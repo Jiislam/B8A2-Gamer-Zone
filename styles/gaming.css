@@ -458,14 +458,14 @@ text-align: justify;
     background: #f7f5f5;
     border: #f5f4f7 2px solid;
     padding: 0px 10px;
-    background-color: #131218aa;
+    background-color: #dddce5aa;
 
 }
 
-.game:hover {
+/* .game:hover {
     color: #FF42A5;
     border: #FF42A5 1px solid;
-}
+} */
 .overlay {
     position: absolute;
     top: 0;
@@ -478,9 +478,10 @@ text-align: justify;
   }
   .card:hover .overlay {
     display: block;
-    background: rgba(0, 0, 0, 0.499);
+    background: rgba(1, 1, 1, 0.499);
     z-index: 0;
     color: #f5f4f7;
+    border-radius: 8px;
   }
 /* .game-types{
     display: flex;
