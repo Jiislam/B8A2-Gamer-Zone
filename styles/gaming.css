@@ -342,7 +342,7 @@ margin: 15px auto;
 
 .play-details {
     color: #534C64;
-text-align: justify;
+text-align: right;
     font-family: Work Sans;
     font-size:1.125rem;
     font-style: normal;
@@ -377,7 +377,7 @@ text-align: justify;
     position: relative;
     text-align: center;
     top: -130px;
-    left: 735px;
+    left: 790px;
     position: relative;
 }
 
