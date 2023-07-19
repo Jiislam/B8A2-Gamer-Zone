@@ -98,7 +98,7 @@ nav {
     gap: auto; 
     background-image: url("/images/Group\ 14.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .banner-content {
@@ -123,7 +123,7 @@ nav {
 .banner-title {
     background: var(--goat);
     /* text-align: center; */
-    font-size: 95px;
+    font-size: 5.4rem;
     font-weight: 800;
     text-transform: uppercase;
     color: transparent;
@@ -133,7 +133,7 @@ nav {
 .banner-image {
     padding-left: 15px;
     width: 30%;
-    im
+    
 }
 
 h6 {

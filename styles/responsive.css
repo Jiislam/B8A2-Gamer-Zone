@@ -13,4 +13,28 @@
 .social{
     align-items: center;
 }
+.banner-container{
+    display: flex;
+    flex-direction: column-reverse;
+gap: 15px;
+    padding: 0 33px;
+}
+.banner-content{
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    background-image: url(../images/Group\ 14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h6{
+    text-align: start;
+}
+.banner-image{
+    width: 100%;
+}
+.banner-photo{
+    width: 100%;
+    padding-left: 0;
+}
 }
