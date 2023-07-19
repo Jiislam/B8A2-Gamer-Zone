@@ -412,7 +412,7 @@ gamer-purpose {
 }
 
 .game-types {
-    
+
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -427,24 +427,82 @@ gamer-purpose {
 .game {
 
     height: 70px;
-width: 250px;
+    width: 250px;
     display: flex;
     align-items: center;
     gap: 5px;
     border-radius: 50px;
     background: #f7f5f5;
     border: #f5f4f7 2px solid;
-    padding:  0px 10px;
+    padding: 0px 10px;
 
 }
-.game:hover {
-color:  #FF42A5;
-   
-    border:  #FF42A5 1px solid;
 
+.game:hover {
+    color: #FF42A5;
+    border: #FF42A5 1px solid;
 }
 
 /* .game-types{
     display: flex;
    flex-wraprgb(226, 61, 180)
     } */
+
+footer {
+    background: #0B0223;
+}
+
+.footer-title-container {
+    display: flex;
+    /* border: 1px red solid; */
+    align-items: center;
+    gap: 20px;
+    object-fit: contain;
+    color: #f5f4f7;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.contact,
+.contact a {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.terms,
+.terms a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    line-height: normal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
