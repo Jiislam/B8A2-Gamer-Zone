@@ -5,7 +5,7 @@
         text-align: center;
         margin: 8px auto;
         padding: 10px 0px;
-        max-width: 576px;
+        
     }
 
     .menu-container>ol {
@@ -34,6 +34,7 @@
 
     h6 {
         text-align: start;
+        font-size: 1.25rem;
     }
 
     .banner-image {
@@ -125,5 +126,17 @@
     border-radius: 15px;
     position: relative;
     
+}
+.game h3, img{
+    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+}
+.career-photo img {
+    width: 100%;
+}
+footer .contact,  .terms{
+padding: 26px 130px;
+flex-wrap: wrap;
 }
 }
