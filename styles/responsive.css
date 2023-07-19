@@ -131,15 +131,27 @@
     font-size: 1rem;
     
 }
+/* footer{
+    height: 80vh;
+} */
 .career-photo img {
     width: 100%;
 }
-footer .contact,  .terms{
-padding: 26px 130px;
-flex-wrap: wrap;
+footer .contact  {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+padding: 26px 130px;}
+
+.terms{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ padding: 26px 130px;
 }
 .icon{
     width: 40px;
     height: 40px;
+}
+.social-media{
+align-items: center;
 }
 }
