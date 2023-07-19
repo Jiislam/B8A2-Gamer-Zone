@@ -175,3 +175,30 @@ h6 {
     text-transform: uppercase;
     margin-top: 15px;
 }
+/* gamer */
+.gamer-content{
+    text-align: end;
+    margin-right: 50px;
+}
+.gamer{
+    display: flex;
+align-items: center;
+
+}
+.gamer-title{
+  background: var(--goat);
+    /* text-align: center; */
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.gamer-details{
+    color: #534C64;
+font-size: 1.125rem;
+
+}
+.gamer-purpose{
+    text-align: center;
+}

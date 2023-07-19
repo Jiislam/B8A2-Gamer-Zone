@@ -37,4 +37,41 @@ h6{
     width: 100%;
     padding-left: 0;
 }
+.gamer{
+    flex-direction: column;
+    width: 100%;
+}
+.gamer-image img{
+    width: 100%;
+}
+.gamer-content{
+    text-align: center;
+    width: 90%;
+    margin-right: 0px;
+    margin: 10px auto;
+    
+}
+.gamer-purpose{
+    margin: 15px 0px;
+    text-align: center;
+}
+.our-purpose{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+}
+.purpose-details{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px; /* 187.5% */
+}
+
 }
