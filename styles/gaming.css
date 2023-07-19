@@ -462,10 +462,11 @@ text-align: right;
 
 }
 
-/* .game:hover {
+.game:hover {
     color: #FF42A5;
     border: #FF42A5 1px solid;
-} */
+}
+
 .overlay {
     position: absolute;
     top: 0;
