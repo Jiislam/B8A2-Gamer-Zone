@@ -282,8 +282,8 @@ margin: 15px auto;
 
 .cards {
     display: flex;
-    gap: 5px;
-    justify-content: space-around;
+    gap: 25px;
+    justify-content: center;
     margin: 15px auto;
 
    
@@ -293,7 +293,7 @@ margin: 15px auto;
 
 .card { 
     
-    width: 200px;
+    width: 250px;
     flex-shrink: 0;
     text-align: center;
     border-radius: 15px;
