@@ -145,7 +145,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
    margin-bottom: 30px;
-   gap: 1x;
+   padding: 20px 0px;
+   gap:10px;
    
 }
 .card { 
@@ -161,9 +162,13 @@
    
 }
 .game{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     height: 50px;
     width: auto;
-    padding: 2px ;
+    padding: 2px 1px ;
+    gap: 1px;
+
 }
 footer{
     height: auto;
