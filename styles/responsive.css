@@ -348,8 +348,10 @@ align-items: center;
      display: none;
 }
 .game-types{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
    margin-bottom: 30px;
    padding: 0px 2px;
    gap:5px;
