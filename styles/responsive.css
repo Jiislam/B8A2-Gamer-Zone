@@ -20,30 +20,47 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 15px;
-        padding: 0 33px;
+        padding: 25px 15px ;
+       
     }
 
     .banner-content {
         width: 100%;
-        padding: 0px 30px;
+        padding: 0px 10px;
         text-align: center;
         background-image: url(../images/Group\ 14.png);
         background-size: cover;
         background-repeat: no-repeat;
+       
+       
+    }
+    .buttons{
+        justify-content: center;
     }
 
-    h6 {
-        text-align: start;
+    .banner-content{
+        align-items: center;
+    }
+   .banner-content> h6 {
+    display: flex;
+        text-align: center;
+        align-items:normal ;
         font-size: 1.25rem;
+        width: 100%;
+        /* border: 10px red solid; */
+        padding: 10px 0px 0px 100px;
+        width: 300px;
     }
 
     .banner-image {
         width: 100%;
+        
     }
 
     .banner-photo {
         width: 100%;
         padding-left: 0;
+        
     }
 
     .gamer {
@@ -92,27 +109,37 @@
     .cards{
         gap: 20px;
         flex-direction: column;
-        justify-content: center;
+       align-items: center;
     }
     .playtext {
         width: 100%;
         text-align: center;
-        padding: 15px 20px;
+        padding: 15px 10px;
     }
     .play{
        flex-direction: column;
+       padding: 10px;
+       
+    }
+    .play-image{
+        width: 80%;
+        margin-left: 5px;
+        
     }
 .play-title, .play-details{
     text-align: center;
+    
 }
 .badge{
-    left: -429px;
+    left: 30px;
     position: relative;
-    top: -33px;
+    top: -88px;
+    
 }
 .career{
     flex-direction: column;
     padding: 15px 10px;
+     display: none;
 }
 .game-types{
     display: grid;

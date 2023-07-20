@@ -93,8 +93,8 @@ justify-content: center;
     align-items: center;
 
     /* justify-content: center; */
-    /* margin: 0px auto; */
-    padding: 10px 240px;
+    /* margin: 30px 180px */
+    padding: 30px 180px;
     gap: auto;
     background-image: url("./images/Group\ 14.png");
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ justify-content: center;
 }
 
 .banner-content {
-    width: 701px;
+    width: 70%;
 
 
 
@@ -112,7 +112,7 @@ justify-content: center;
     color: #0B0223;
     /* text-align: center; */
 
-    font-size: 3rem;
+    font-size: rem;
 
     font-weight: 600;
 
@@ -128,27 +128,34 @@ justify-content: center;
     text-transform: uppercase;
     color: transparent;
     -webkit-background-clip: text;
+    
 }
 
 .banner-image {
-    padding-left:0px;
-    width: 511px;
-
+    margin-lrft:0px;
+    /* border: #000000 solid 2px; */
 }
-
+.banner-photo{
+    width: 100%;
+    /* border: #FF42A5 solid 2px; */
+}
 h6 {
     color: #534C64;
     font-family: Work Sans;
-    font-size: 1.25px;
+    font-size: 1.25rem;
     font-weight: 500;
     text-transform: lowercase;
     margin: 15px 0px;
-
+    
 }
 
+.buttons{
+    display: flex;
+
+}
 .btn-pink {
     border: 0;
-    display: inline-flex;
+
     padding: 21px 40px;
     /* align-items: flex-start; */
 
@@ -163,7 +170,6 @@ h6 {
 
 .btn-aqua {
     border: 0;
-    display: inline-flex;
     padding: 21px 40px;
     /* align-items: flex-start; */
     margin-left: 15px;
@@ -310,7 +316,7 @@ margin: 15px auto;
 .card img:hover {}
 
 .playtext {
-    width: 50%;
+    width: 40%;
 
     padding: 15px 130px 0px 20px;
   
@@ -327,7 +333,7 @@ margin: 15px auto;
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    /* 125% */
+    125%
 }
 
 .play-title {
@@ -341,6 +347,7 @@ margin: 15px auto;
 }
 
 .play-details {
+    
     color: #534C64;
 text-align: right;
     font-family: Work Sans;
@@ -354,11 +361,11 @@ text-align: right;
 
 
 .play-image img {
-    width: 90%;
+    width: 100%;
    
     border-radius: 8px;
     background: lightgray -7.583px 0px / 102.389% 100% no-repeat;
-    ;
+    
 }
 
 .play {
