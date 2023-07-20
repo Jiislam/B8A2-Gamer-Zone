@@ -255,8 +255,9 @@ align-items: center;
     }
 
     .banner-photo {
-        width: 100%;
-        padding-left: 0;
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
         
     }
 
@@ -266,7 +267,12 @@ align-items: center;
     }
 
     .gamer-image img {
-        width: 100%;
+        /* display: flex; */
+        width: 90%;
+        /* justify-items: center;
+        justify-content: center; */
+        margin: 15px 15px;
+        padding: 0px 0px;
     }
 
     .gamer-content {
