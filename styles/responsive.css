@@ -144,8 +144,9 @@
 .game-types{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   padding-bottom: 30px;
-   gap: 5px;
+   margin-bottom: 30px;
+   gap: 1x;
+   
 }
 .card { 
     width: 90%;
@@ -162,7 +163,7 @@
 .game{ 
     height: 50px;
     width: auto;
-    gap: ;
+    padding: 2px ;
 }
 footer{
     height: auto;
