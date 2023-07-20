@@ -144,7 +144,8 @@
 .game-types{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   margin-bottom: 30px;
+   padding-bottom: 30px;
+   gap: 5px;
 }
 .card { 
     width: 90%;
@@ -156,11 +157,16 @@
 }
 .game > h3{
     font-size: 1rem;
-    
+   
 }
-/* footer{
-    height: 80vh;
-} */
+.game{ 
+    height: 50px;
+    width: auto;
+    gap: ;
+}
+footer{
+    height: auto;
+}
 .career-photo img {
     width: 100%;
 }
