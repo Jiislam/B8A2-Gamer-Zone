@@ -369,6 +369,7 @@ text-align: right;
 }
 
 .play {
+    padding: 10px 240px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -384,7 +385,7 @@ text-align: right;
     position: relative;
     text-align: center;
     top: -130px;
-    left: 790px;
+    left: 633px;
     position: relative;
 }
 
